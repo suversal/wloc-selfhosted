@@ -41,10 +41,9 @@ https://raw.githubusercontent.com/suversal/wloc-selfhosted/refs/heads/main/modul
 
 ## 快捷指令（推荐，最方便）
 
-直接用快捷指令切换 / 清除定位，无需打开选点页面：
+直接用快捷指令切换 / 清除定位，无需打开选点页面。
 
-- **wloc 设置地理位置**：https://www.icloud.com/shortcuts/a82717d8fdad4e6280866fcf911173f7
-- **wloc 清理恢复位置**：https://www.icloud.com/shortcuts/f42632d406504f24a2cd163af4fe012f
+本 fork 不再引用上游作者维护的 iCloud 分享链接，避免上游链接或接口下架后失效。自托管版本的可审计源码和生成说明见 [`shortcuts/`](shortcuts/)；请使用自己的 Apple ID 在“快捷指令”App 中生成可导入的 iCloud 分享链接。
 
 **用法**
 
