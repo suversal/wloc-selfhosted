@@ -2,12 +2,15 @@
   "type": "module",
   "scripts": {
     "test": "node --test 'test/*.test.mjs'",
-    "dev": "npx wrangler dev",
-    "deploy": "npx wrangler deploy --minify",
-    "pages:dev": "npx wrangler pages dev --port 8787 -c wrangler.pages.jsonc",
-    "pages:deploy": "npx wrangler pages deploy -c wrangler.pages.jsonc"
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "pages:dev": "wrangler pages dev --port 8787 -c wrangler.pages.jsonc",
+    "pages:deploy": "wrangler pages deploy -c wrangler.pages.jsonc"
   },
   "dependencies": {
-    "hono": "^4.10.6"
+    "hono": "4.13.8"
+  },
+  "devDependencies": {
+    "wrangler": "4.136.3"
   }
 }
